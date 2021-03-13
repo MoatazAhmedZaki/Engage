@@ -1,0 +1,266 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.5s all;
+}
+
+.btn-tans {
+  background-color: transparent;
+  color: rgb(136, 136, 136);
+}
+.btn-tans:hover {
+  color: rgb(136, 136, 136);
+}
+
+.navbar-brand img {
+  width: 136px;
+  height: 36px;
+}
+.green {
+  color: rgb(76, 175, 80);
+}
+
+.btn-green {
+  background-color: #4caf50;
+  padding: 13px 17px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.header {
+  background-image: url(../img/business-2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  font-size: 50px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.header p {
+  font-size: 20px;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.z-all {
+  position: relative;
+  z-index: 4;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+
+  transition: background-color 200ms linear;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  padding: 20px 0px;
+}
+
+.contact {
+  background-color: white;
+  border-radius: 5%;
+}
+
+.contact:hover {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  transition: 0.5s all;
+}
+
+.contact .nav-link {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.contact:hover .nav-link {
+  color: white !important;
+  transition: 0.5s all;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: 0.5s all;
+}
+
+.media img {
+  width: 38px;
+  height: 28px;
+}
+.services {
+  background-color: rgb(248, 248, 248);
+}
+
+.testimonial {
+  background-color: #f8f8f8;
+}
+.num {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 52px;
+  font-weight: 400;
+  margin: 0;
+}
+.gray {
+  font-size: 20px;
+  text-align: center;
+  color: #686868;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  padding: 100px 0px;
+}
+
+.space .up {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.up p {
+  padding: 20px;
+  color: rgb(136, 136, 136);
+}
+
+.space .low {
+  background-color: #f8f8f8;
+}
+
+.space .low img {
+  padding-left: 10px;
+  position: relative;
+  top: -7px;
+}
+
+.low p {
+  padding: 10px 20px 0px 20px;
+}
+
+.gree-bg {
+  background-color: rgb(76, 175, 80);
+  color: white;
+}
+.black-hover:hover {
+  background-color: black;
+  color: white;
+}
+.white-hover:hover {
+  background-color: white;
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.white-test {
+  color: white;
+}
+.space span {
+  color: rgb(136, 136, 136);
+  padding: 0px 20px 20px 20px;
+}
+
+.bg-fixed {
+  background-image: url("../img/office.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 150px 0;
+}
+
+.bg-fixed h3 {
+  font-size: 40px;
+}
+.bg-fiexd p {
+  font-size: 20px;
+}
+
+.bg-fixed::after {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.up-positon {
+  position: relative;
+  z-index: 3;
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: #1f2021;
+}
+
+footer h4 {
+  font-size: 17px;
+  padding: 10px 0px;
+}
+footer p {
+  color: rgb(88, 96, 107);
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar {
+    background-color: black;
+  }
+
+  .header h1 {
+    font-size: 25px;
+  }
+  .header p {
+    font-size: 13px;
+  }
+}
+
+.nav-item:not(.contact) {
+  padding-top: 7px;
+}
+
+.right-box {
+  position: fixed;
+  right: 0;
+  top: 400px;
+  width: 35px;
+  background-color: white;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
+  z-index: 99;
+}
